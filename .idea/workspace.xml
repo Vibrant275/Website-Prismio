@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/CartItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CountrySelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CustomButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CustomTextField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/DatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/HeroBanner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MenuMobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PasswordStrengthMeter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ProductCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ProductDetailsCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RelatedProducts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Vibrant_ID_toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Wrapper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/utility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/failed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/verifyEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/vibrantId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/empty-cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/ArrowLefft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/AtIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/CalenderIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/Calender_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/Calender_Grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/FileIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/PasswordIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/account.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/bag-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/close-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/search-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/vibrant-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/VibrantOutline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/emailBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/vibrant-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/product-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/slide-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/slide-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/slide-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/start-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/start-black2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/start-gold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/start-gray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/cartSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/DatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/PasswordStrengthMeter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/accounts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Y7407EFOCMXmeEZlh6YH5ai2NW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "X:/Websites/Prism",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "X:\\Websites\\Prism\\node_modules\\prettier",
+    "ts.external.directory.path": "D:\\JetBrains\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Websites\Prism" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.next-dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="next-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="next-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="postinstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="postinstall" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.next-dev" />
+        <item itemvalue="npm.postinstall" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="" />
+      <created>1699863058207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699863058207</updated>
+      <workItem from="1699863061618" duration="3000" />
+      <workItem from="1699863088895" duration="209000" />
+      <workItem from="1699863321334" duration="860000" />
+      <workItem from="1699864356269" duration="383000" />
+      <workItem from="1699880216560" duration="1593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,171 @@
+.custom-country-selector {
+    cursor: pointer;
+}
+
+.title {
+    color: #3a3a3a;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vidtb {
+    width: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.v_divider1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+.buttonOpt {
+    transition: color 0.3s;
+}
+
+.buttonOpt:hover {
+    color: #0099ff;
+}
+
+.f-p {
+    color: #5d5d5d;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: end;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+}
+
+.f-p:hover {
+    color: #0099ff;
+}
+
+.nav-container {
+    justify-content: center;
+    display: grid;
+}
+
+.form {
+    display: grid;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+.spacer45 {
+    margin-top: 45px;
+}
+
+.spacer2 {
+    margin-top: 24px;
+}
+
+.spacer3 {
+    margin-top: 10px;
+}
+
+.navBarSpacer {
+    margin-top: 70px;
+}
+
+.input-field {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #0099ff;
+    stroke-width: 2px;
+}
+
+.progressBar {
+    justify-self: center;
+}
+
+
+.not-validated {
+    color: rgb(183, 183, 183);
+}
+
+.list-icon {
+    margin-right: 12px;
+}
+
+.list-icon.green {
+    color: #0f0;
+}
+
+.countrySearchText {
+    font-size: 15px;
+}
+
+.countryItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.countrySearchRoot {
+    border-radius: 10px;
+}
+
+
+/* styles/AccountPage.module.css */
+
+/* Center the content vertically and horizontally */
+.account-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this as needed to control the vertical centering */
+}
+
+.brand-icon{
+    height: 270px;
+    width: 270px;
+}
+
+.title,
+.description{
+    font-family: "Poppins", serif;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 21px;
+}
+
+.buttonSignUp.MuiButton-outlined {
+    border-width: 2px;
+    border-color: #0099ff;
+    width: 100px;
+    color: #0099ff;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.buttonSignIn.MuiButton-contained {
+    color: #fff;
+    background: #0099ff;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 140px;
+}
