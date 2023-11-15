@@ -1,6 +1,5 @@
 import React from 'react';
 
-import BrandIcon from '@/public/images/VibrantOutline.png';
 import Image from "next/image";
 import Vibrant_ID_toolbar from "@/components/Vibrant_ID_toolbar";
 import Button from "@mui/material/Button";
@@ -13,7 +12,7 @@ const AccountPage = () => {
         <main>
             <Vibrant_ID_toolbar/>
             <div className={'account-page'}>
-                <Image src={BrandIcon} alt="Brand Icon" className={'brand-icon'}/>
+
 
                 <div style={{width: '50px'}}/>
 
