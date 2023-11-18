@@ -17,7 +17,7 @@ body {
     /* Other styles */
     position: relative;
     text-decoration: none;
-    color: black; /* Default text color */
+    color: white; /* Default text color */
     transition: color 0.3s ease; /* Transition text color */
     display: inline-block; /* Ensure the element has a defined width */
 }

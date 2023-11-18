@@ -47,59 +47,20 @@ const Header = () => {
         theme: "dark",
     }
 
-    const onAccountClick = () => {
-        if (pushUrl === '')
-            toast.info('Please wait a moment', toastOption);
-        else
-            router.push(pushUrl)
-    }
-
-
     useEffect(() => {
         window.addEventListener("scroll", controlNavbar);
         return () => {
             window.removeEventListener("scroll", controlNavbar);
         };
     }, [lastScrollY]);
-
-    useEffect(() => {
-        fetchCategories();
-    }, []);
-
-    useEffect(() => {
-        const checkLoginStatus = async () => {
-
-            try {
-                const response = await fetch('http://localhost:4000/api/verifyToken');
-                const data = await response.json();
-
-                if (data.isLoggedIn) {
-                    setPushUrl('/account')
-                } else {
-                    setPushUrl('/vibrantId')
-                }
-            } catch (error) {
-                // Handle error
-                console.error(error);
-            }
-        };
-
-        checkLoginStatus();
-    }, []);
-
-    const fetchCategories = async () => {
-        const data = ["mobile", "laptop", "PC", "console"];
-        setCategories(data);
-    };
-
     return (
         <>
             <header
-                className={`w-full h-[50px] md:h-[60px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
+                className={`w-full h-[50px] md:h-[60px] bg-gray-950 flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
             >
                 <Wrapper className="h-[60px] flex justify-between items-center">
                     <Link href="/">
-                        <img src="/images/Prism.png" className="w-[70px] md:w-[90px]"/>
+                        <img src="/images/Banner.png" className="w-[70px] md:w-[90px]"/>
                     </Link>
 
                     <Menu
@@ -119,6 +80,11 @@ const Header = () => {
 
                     <div className="flex items-center gap-2 text-black">
                         {/* Icon start */}
+
+                        <Link href={"/donation"}>
+                        <div className="text-white font-bold px-6 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-700 cursor-pointer">Donate</div>
+                        </Link>
+
                         <div
                             className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
                             <Image
@@ -126,43 +92,6 @@ const Header = () => {
                                 src={searchIcon}
                                 alt="Search product"
                             /></div>
-
-                        <Link href="/cart">
-                            <div
-                                className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
-
-                                <Image
-                                    priority
-                                    src={bagIcon}
-                                    alt="Check your bag"
-                                />
-
-                                {cartItems.length > 0 && (
-                                    <div
-                                        className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-black absolute bottom-1 left-5 md:left-7 text-white text-[10px] md:text-[12px] flex justify-center items-center px-[2px] md:px-[5px]">
-                                        {cartItems.length}
-                                    </div>
-                                )}
-                            </div>
-                        </Link>
-
-                        <div onClick={onAccountClick}
-                             className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
-
-                            <Image
-                                priority
-                                src={accountIcon}
-                                alt="Account"
-                            />
-
-                            {cartItems.length > 0 && (
-                                <div
-                                    className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-black absolute bottom-1 left-5 md:left-7 text-white text-[10px] md:text-[12px] flex justify-center items-center px-[2px] md:px-[5px]">
-                                    {cartItems.length}
-                                </div>
-                            )}
-                        </div>
-                        {/* Icon end */}
 
                         {/* Mobile icon start */}
                         <div

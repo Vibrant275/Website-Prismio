@@ -5,20 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/Prism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/donation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Banner.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/vibrantId.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vibrantId.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/vibrant-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vibrant-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HeroBanner.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProductDetailsCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProductDetailsCarousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/empty-cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/search-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/search-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/p7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/product-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/slide-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/slide-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/slide-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/spinner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/start-black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/start-black2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/start-gold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/start-gray.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,24 +61,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "X:/Websites/Prism/public/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "X:\\Websites\\Prism\\node_modules\\prettier",
-    "ts.external.directory.path": "D:\\JetBrains\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/Websites/Prism/public/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;X:\\Websites\\Prism\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\JetBrains\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="X:\Websites\Prism\public\images" />
@@ -133,7 +160,8 @@
       <workItem from="1699864356269" duration="383000" />
       <workItem from="1699880216560" duration="2427000" />
       <workItem from="1699886282917" duration="747000" />
-      <workItem from="1700032327086" duration="374000" />
+      <workItem from="1700032327086" duration="445000" />
+      <workItem from="1700336387136" duration="2642000" />
     </task>
     <servers />
   </component>
