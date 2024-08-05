@@ -56,11 +56,11 @@ const Header = () => {
     return (
         <>
             <header
-                className={`w-full h-[50px] md:h-[60px] bg-neutral-800 flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
+                className={`w-full h-[100px] md:h-[70px] bg-neutral-800 flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
             >
-                <Wrapper className="h-[60px] flex justify-between items-center">
+                <Wrapper className="h-[90px] flex justify-between items-center">
                     <Link href="/">
-                        <img src="/images/Banner.png" className="w-[70px] md:w-[90px]"/>
+                        <img src="/images/Banner.png" className="w-[140px] md:w-[140px]"/>
                     </Link>
 
                     <Menu
