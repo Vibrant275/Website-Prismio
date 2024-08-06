@@ -1,8 +1,7 @@
 {
-    "name": "prism",
+    "name": "prismio",
     "version": "1.0",
     "private": true,
-    "homepage": ".",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -17,18 +16,19 @@
         "@fortawesome/free-solid-svg-icons": "^6.4.2",
         "@fortawesome/react-fontawesome": "^0.2.0",
         "@mui/material": "^5.14.7",
-        "@next/font": "13.1.6",
         "@reduxjs/toolkit": "^1.9.3",
         "@stripe/react-stripe-js": "^1.16.5",
         "@stripe/stripe-js": "^1.48.0",
         "axios": "^1.5.0",
         "eslint": "8.34.0",
         "eslint-config-next": "13.1.6",
-        "next": "13.1.6",
+        "next": "14.2.5",
         "pg": "^8.11.3",
-        "react": "18.2.0",
-        "react-dom": "18.2.0",
         "react-icons": "^4.7.1",
+
+        "react": "^18",
+        "react-dom": "^18",
+
         "react-markdown": "^8.0.5",
         "react-multi-carousel": "^2.8.2",
         "react-redux": "^8.0.5",
@@ -40,7 +40,16 @@
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
-        "postcss": "^8.4.21",
-        "tailwindcss": "^3.2.7"
+        "css-loader": "^7.1.2",
+        "style-loader": "^4.0.0",
+
+        "typescript": "^5",
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.1",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.5"
     }
 }

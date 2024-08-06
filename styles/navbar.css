@@ -16,10 +16,16 @@ body {
 .desktop-nav {
     /* Other styles */
     position: relative;
-    text-decoration: none;
-    color: white; /* Default text color */
+    font-family: "Inter", sans-serif;
+    color: #bababa;
     transition: color 0.3s ease; /* Transition text color */
-    display: inline-block; /* Ensure the element has a defined width */
+    display: inline-block;
+
+    /* Font styles */
+    font-size: 17px; /* Adjust font size as needed */
+    font-weight: 500; /* Medium weight for better readability */
+    letter-spacing: 1px; /* Slightly increased letter spacing for clarity */
+    line-height: 1.5; /* Improved line height for readability */
 }
 
 /* Underline effect styles */
@@ -29,12 +35,12 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 0; /* Initially, no underline */
-    height: 2px; /* Underline height */
-    background-color: #007bff; /* Blue color for underline */
-    transition: width 0.3s ease, left 0.3s ease; /* Transition width and left position */
-    transform: translateX(-50%); /* Center the underline */
-    opacity: 0; /* Initially, the underline is invisible */
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
+    transform: translateX(-50%);
+    opacity: 0;
 }
 
 .desktop-nav::before {
@@ -45,9 +51,8 @@ body {
     transform-origin: left; /* Open from the center towards the right */
 }
 
-/* Hover styles */
 .desktop-nav:hover {
-    color: #007bff; /* Change text color to blue on hover */
+    color: white; /* Change text color to blue on hover */
 }
 
 .desktop-nav:hover::before,

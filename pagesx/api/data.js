@@ -1,4 +1,4 @@
-// pages/api/data.js
+// pagesx/api/data.js
 
 export default async function handler(req, res) {
     try {
