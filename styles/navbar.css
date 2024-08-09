@@ -12,20 +12,16 @@ body {
     overflow-y: scroll;
 }
 
-/* Base styles for desktop-nav */
 .desktop-nav {
-    /* Other styles */
     position: relative;
     font-family: "Inter", sans-serif;
     color: #bababa;
-    transition: color 0.3s ease; /* Transition text color */
+    transition: color 0.3s ease;
     display: inline-block;
-
-    /* Font styles */
-    font-size: 17px; /* Adjust font size as needed */
-    font-weight: 500; /* Medium weight for better readability */
-    letter-spacing: 1px; /* Slightly increased letter spacing for clarity */
-    line-height: 1.5; /* Improved line height for readability */
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 /* Underline effect styles */
@@ -583,4 +579,51 @@ div,
 span,
 a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.custom-icon-container {
+    z-index: 1000;
+    width: 20rem; /* Adjust for custom size */
+    height: 2rem;
+    border-radius: 8px; /* Custom roundedness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.custom-icon-container:hover {
+    background-color: transparent;
+    border-color: white; /* Border color on hover */
+}
+
+
+.custom-icon-container::before {
+    content: "";
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    filter: invert(28%) sepia(9%) saturate(540%) hue-rotate(179deg) brightness(92%) contrast(91%); /* Adjust icon to #19181d */
+}
+
+.custom-icon-container:hover {
+    background-color: transparent;
+    border-color: white; /* Border color on hover */
+}
+
+.custom-icon-container:hover::before {
+    filter: invert(100%); /* Make the icon white on hover */
+}
+
+.search-icon {
+    z-index: 10001;
+}
+
+.search-icon:hover {
+    fill: white;
 }

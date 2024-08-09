@@ -22,13 +22,12 @@
         "axios": "^1.5.0",
         "eslint": "8.34.0",
         "eslint-config-next": "13.1.6",
+        "feather-icons": "^4.29.2",
         "next": "14.2.5",
         "pg": "^8.11.3",
-        "react-icons": "^4.7.1",
-
         "react": "^18",
         "react-dom": "^18",
-
+        "react-icons": "^4.7.1",
         "react-markdown": "^8.0.5",
         "react-multi-carousel": "^2.8.2",
         "react-redux": "^8.0.5",
@@ -39,17 +38,16 @@
         "uuid": "^9.0.0"
     },
     "devDependencies": {
-        "autoprefixer": "^10.4.14",
-        "css-loader": "^7.1.2",
-        "style-loader": "^4.0.0",
-
-        "typescript": "^5",
         "@types/node": "^20",
         "@types/react": "^18",
         "@types/react-dom": "^18",
-        "postcss": "^8",
-        "tailwindcss": "^3.4.1",
+        "autoprefixer": "^10.4.14",
+        "css-loader": "^7.1.2",
         "eslint": "^8",
-        "eslint-config-next": "14.2.5"
+        "eslint-config-next": "14.2.5",
+        "postcss": "^8",
+        "style-loader": "^4.0.0",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5"
     }
 }

@@ -14,7 +14,7 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
             {data.map((item) => {
                 return (
                     <React.Fragment key={item.id}>
-                            <li className="desktop-nav">
+                            <li className="desktop-nav md:h-[70px] content-center">
                                 <Link href={item?.url}>{item.name}</Link>
                             </li>
                         {/*)}*/}

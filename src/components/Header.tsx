@@ -6,13 +6,14 @@ import Wrapper from "./Wrapper";
 import Link from "next/link";
 import Menu from "./Menu";
 import MenuMobile from "./MenuMobile";
-import searchIcon from '../../public/icons/search-icon.svg';
 import { BiMenuAltRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
 import Image from "next/image";
 import { toast, ToastContainer } from "react-toastify";
 import { useRouter } from 'next/navigation'; // Use this import for Next.js 13 App Router
 import { useCart } from '../context/CartContext'; // Adjust path accordingly
+
+import SearchIcon from "../../public/icons/SeachIcon";
 
 const Header: React.FC = () => {
     const [mobileMenu, setMobileMenu] = useState<boolean>(false);
@@ -46,12 +47,16 @@ const Header: React.FC = () => {
 
     return (
         <>
+            <script>
+                feather.replace();
+            </script>
+
             <header
-                className={`w-full h-[100px] md:h-[70px] bg-neutral-800 flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
+                className={`w-full h-[100px] md:h-[70px] bg-[#19181d] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
             >
-                <Wrapper className="h-[90px] flex justify-between items-center">
+                <Wrapper className="flex justify-between items-center">
                     <Link href="/public">
-                        <img src="/images/Banner.png" className="w-[140px] md:w-[140px]" alt="Banner" />
+                        <img src="/images/Banner.png" className="w-[140px] md:w-[140px]" alt="Banner"/>
                     </Link>
 
                     <Menu
@@ -70,20 +75,11 @@ const Header: React.FC = () => {
                     )}
 
                     <div className="flex items-center gap-2 text-black">
-                        <Link href={"/donation"}>
-                            <div className="text-white font-bold px-6 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-700 cursor-pointer">
-                                Donate
-                            </div>
-                        </Link>
 
-                        <div
-                            className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative"
-                        >
-                            <Image
-                                priority
-                                src={searchIcon}
-                                alt="Search product"
-                            />
+                        <div className="custom-icon-container">
+
+                            <SearchIcon color={'#19181d'}/>
+                            <div>Hello</div>
                         </div>
 
                         <div
@@ -104,7 +100,7 @@ const Header: React.FC = () => {
                     </div>
                 </Wrapper>
             </header>
-            <ToastContainer />
+            <ToastContainer/>
         </>
     );
 };
