@@ -18,6 +18,7 @@ body {
     color: #bababa;
     transition: color 0.3s ease;
     display: inline-block;
+    cursor: pointer;
     font-size: 17px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -583,47 +584,40 @@ a {
 
 .custom-icon-container {
     z-index: 1000;
-    width: 20rem; /* Adjust for custom size */
+    width: 2rem; /* Adjust for custom size */
     height: 2rem;
     border-radius: 8px; /* Custom roundedness */
+
     display: flex;
     justify-content: center;
+
     align-items: center;
+    align-content: space-around;
+    align-self: center;
+    text-align: center;
+
     background-color: white;
     cursor: pointer;
     position: relative;
+
     border: 2px solid transparent;
+
+    padding: 5px;
 }
 
 .custom-icon-container:hover {
-    background-color: transparent;
-    border-color: white; /* Border color on hover */
+    background-color: #d1f0ff;
+      transition: all 300ms ease;
 }
 
+/*.custom-icon-container:hover::before {*/
+/*    filter: invert(100%); !* Make the icon white on hover *!*/
+/*}*/
 
-.custom-icon-container::before {
-    content: "";
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    filter: invert(28%) sepia(9%) saturate(540%) hue-rotate(179deg) brightness(92%) contrast(91%); /* Adjust icon to #19181d */
-}
+/*.search-icon {*/
+/*    z-index: 10001;*/
+/*}*/
 
-.custom-icon-container:hover {
-    background-color: transparent;
-    border-color: white; /* Border color on hover */
-}
-
-.custom-icon-container:hover::before {
-    filter: invert(100%); /* Make the icon white on hover */
-}
-
-.search-icon {
-    z-index: 10001;
-}
-
-.search-icon:hover {
-    fill: white;
-}
+/*.search-icon:hover {*/
+/*    fill: white;*/
+/*}*/

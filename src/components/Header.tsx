@@ -1,17 +1,17 @@
 // components/Header.tsx
 "use client";  // Ensure this is added
 
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import Wrapper from "./Wrapper";
 import Link from "next/link";
 import Menu from "./Menu";
 import MenuMobile from "./MenuMobile";
-import { BiMenuAltRight } from "react-icons/bi";
-import { VscChromeClose } from "react-icons/vsc";
+import {BiMenuAltRight} from "react-icons/bi";
+import {VscChromeClose} from "react-icons/vsc";
 import Image from "next/image";
-import { toast, ToastContainer } from "react-toastify";
-import { useRouter } from 'next/navigation'; // Use this import for Next.js 13 App Router
-import { useCart } from '../context/CartContext'; // Adjust path accordingly
+import {toast, ToastContainer} from "react-toastify";
+import {useRouter} from 'next/navigation'; // Use this import for Next.js 13 App Router
+import {useCart} from '../context/CartContext'; // Adjust path accordingly
 
 import SearchIcon from "../../public/icons/SeachIcon";
 
@@ -21,9 +21,12 @@ const Header: React.FC = () => {
     const [show, setShow] = useState<string>("translate-y-0");
     const [lastScrollY, setLastScrollY] = useState<number>(0);
     const [categories, setCategories] = useState<string[] | null>(null);
-    const { cartItems } = useCart();
+    const {cartItems} = useCart();
     const [pushUrl, setPushUrl] = useState<string>('');
     const router = useRouter();  // Ensure this is used within a valid Next.js page context
+
+    const [isHovered, setIsHovered] = useState(false);
+
 
     const controlNavbar = () => {
         if (window.scrollY > 200) {
@@ -47,9 +50,6 @@ const Header: React.FC = () => {
 
     return (
         <>
-            <script>
-                feather.replace();
-            </script>
 
             <header
                 className={`w-full h-[100px] md:h-[70px] bg-[#19181d] flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
@@ -76,10 +76,10 @@ const Header: React.FC = () => {
 
                     <div className="flex items-center gap-2 text-black">
 
-                        <div className="custom-icon-container">
+                        <div className="custom-icon-container" onMouseEnter={() => setIsHovered(true)}
+                             onMouseLeave={() => setIsHovered(false)}>
 
-                            <SearchIcon color={'#19181d'}/>
-                            <div>Hello</div>
+                            <SearchIcon color={isHovered ? '#19181d' : '#19181d'}/>
                         </div>
 
                         <div
