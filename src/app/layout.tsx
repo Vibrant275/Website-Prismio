@@ -4,6 +4,8 @@ import "./globals.css";
 import "../../styles/navbar.css"
 import React from "react";
 import {CartProvider} from "@/context/CartContext";
+import {ThemeProvider} from "next-themes";
+import {NextUIProvider} from "@nextui-org/react";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -22,7 +24,11 @@ export default function RootLayout({
         <html lang="en">
         <body className={inter.className}>
         <CartProvider>
-            {children}
+            <ThemeProvider attribute={'class'} defaultTheme={'light'} themes={["light", "dark"]} enableSystem={false}>
+                <NextUIProvider>
+                    {children}
+                </NextUIProvider>
+            </ThemeProvider>
         </CartProvider>
 
         </body>
