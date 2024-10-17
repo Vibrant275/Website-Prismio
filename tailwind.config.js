@@ -16,7 +16,6 @@ module.exports = {
     theme: {
         fontFamily: {
             inter: ["Inter", "sans-serif"],
-            playWrite: ["Playwrite DE Grund", 'sans-serif'],
         },
         extend: {},
     },

@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/docs/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/a.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Vibrant275/Website-Prismio.git&quot;,
-    &quot;accountId&quot;: &quot;56cf4b08-c15f-4422-8237-202a90b44d3b&quot;
+    &quot;accountId&quot;: &quot;d32bb154-0db1-4041-b358-2f5306b85ea3&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -68,7 +62,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;S:/InfinityLegends-Server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/Website-Prismio/src/components&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,10 +82,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Website-Prismio\src\components" />
+      <recent name="X:\Website-Prismio\src\app" />
+      <recent name="X:\Website-Prismio" />
       <recent name="X:\Website-Prismio\src\app\pages" />
       <recent name="X:\Website-Prismio\src" />
-      <recent name="X:\Websites\Prism\public\images" />
-      <recent name="X:\Websites\Prism" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\Website-Prismio\src\app\docs" />
@@ -163,7 +158,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
       </set>
     </attachedChunks>
   </component>
@@ -203,6 +198,9 @@
       <workItem from="1723659855785" duration="13000" />
       <workItem from="1724277049331" duration="996000" />
       <workItem from="1724523321782" duration="34000" />
+      <workItem from="1728661848388" duration="2766000" />
+      <workItem from="1728720141204" duration="753000" />
+      <workItem from="1729194338354" duration="308000" />
     </task>
     <servers />
   </component>
