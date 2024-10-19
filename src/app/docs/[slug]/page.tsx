@@ -1,16 +1,12 @@
 "use client"; // Ensure the component is client-side
 
-import {useMDXComponents} from "@/mdx-components"; // Ensure correct import path
+import {useMDXComponents} from "@/mdx-components";
 import {compileMDX} from "next-mdx-remote/rsc";
-import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 import React, {ReactNode, useEffect, useState} from "react";
 import DocsNav from "@/app/docs/Nav";
-import {useRouter} from "next/navigation";
-import Vibrant_ID_toolbar from "@/components/Vibrant_ID_toolbar";
 import EditPage from "@/components/EditPageBar";
-import {slug} from "github-slugger";
 
 interface Params {
     params: {
@@ -19,14 +15,10 @@ interface Params {
 }
 
 export default function DocsPage({params}: Params) {
-    const router = useRouter();
     const [content, setContent] = useState<ReactNode | null>(null);
     const [error, setError] = useState<string | null>(null);
 
     const components = useMDXComponents({});
-
-    const [expandedItems, setExpandedItems] = useState<{ [key: string]: boolean }>({}); // State for expanded items
-    const [activeItem, setActiveItem] = useState<string | null>(null); // State to track the active item
 
     useEffect(() => {
         const fetchContent = async () => {
@@ -54,18 +46,18 @@ export default function DocsPage({params}: Params) {
         };
 
         fetchContent();
-    }, [params.slug]);
+    }, [components, params.slug]);
 
     if (error) {
         return <div>{error}</div>;
     }
 
     return (
-        <div className={'flex flex-row'}>
-            <DocsNav/>
+        <div className={'flex flex-row gap-12 py-7'}>
+           <DocsNav/>
             <div className={'flex flex-col'}>
                 <EditPage docName={params.slug.toString()}/>
-                <div className={'ml-4'}>{content}</div>
+                <div className={'my-4'}>{content}</div>
             </div>
 
         </div>

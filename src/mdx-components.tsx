@@ -16,7 +16,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
 
         h2: ({children}) =>
             <h2 style={{
-                fontSize: '24px',
+                fontSize: '22px',
             }}>{children}</h2>,
 
         ...components,
