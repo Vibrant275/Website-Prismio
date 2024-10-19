@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/docs/content/home.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/docs/page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EditPageBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/buttons/DocsHomeButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/getMDXContent/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/getMDXContent/route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/docs/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/docs/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/docs/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/docs/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/docs/content/strings.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/docs/content/strings.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mdx-components.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/mdx-components.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -89,9 +99,11 @@
       <recent name="X:\Website-Prismio\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\Website-Prismio\src\app\api\getMDXContent" />
+      <recent name="X:\Website-Prismio\src\app\docs\[slug]" />
       <recent name="X:\Website-Prismio\src\app\docs" />
+      <recent name="X:\Website-Prismio\src\app\docs\content" />
       <recent name="X:\Website-Prismio\src\app" />
-      <recent name="X:\Website-Prismio\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -200,7 +212,8 @@
       <workItem from="1724523321782" duration="34000" />
       <workItem from="1728661848388" duration="2766000" />
       <workItem from="1728720141204" duration="753000" />
-      <workItem from="1729194338354" duration="308000" />
+      <workItem from="1729194338354" duration="8554000" />
+      <workItem from="1729354995791" duration="8772000" />
     </task>
     <servers />
   </component>

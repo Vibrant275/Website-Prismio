@@ -10,7 +10,7 @@ export async function GET(request: Request) {
         return NextResponse.json({ error: 'Slug is required' }, { status: 400 });
     }
 
-    const filePath = path.join(process.cwd(), 'src/app/docs/content', `${slug}.md`);
+    const filePath = path.join(process.cwd(), 'src/app/docs/content', `${slug}.mdx`);
 
     try {
         const content = fs.readFileSync(filePath, 'utf8');
