@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="Implemented Basic Docs Page Structure" />
+    <list default="true" id="d3f20d9c-c388-4a75-a14c-8b2f7fa256fa" name="Changes" comment="LockFile update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +65,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/Website-Prismio/src/app/docs/content&quot;,
+    &quot;last_opened_file_path&quot;: &quot;X:/FluidUI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -205,6 +207,8 @@
       <workItem from="1728720141204" duration="753000" />
       <workItem from="1729194338354" duration="8554000" />
       <workItem from="1729354995791" duration="16673000" />
+      <workItem from="1729373628211" duration="153000" />
+      <workItem from="1729540146612" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented Basic Docs Page Structure">
       <option name="closed" value="true" />
@@ -214,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729373518551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LockFile update">
+      <option name="closed" value="true" />
+      <created>1729373741988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729373741988</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +234,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Basic Docs Page Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Basic Docs Page Structure" />
+    <MESSAGE value="LockFile update" />
+    <option name="LAST_COMMIT_MESSAGE" value="LockFile update" />
   </component>
 </project>
