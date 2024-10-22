@@ -1,0 +1,15 @@
+{
+  "body": {
+    "raw": "[//]: # (---)\r\n\r\n[//]: # (title: \"Comprehensive String Guide\")\r\n\r\n[//]: # (---)\r\n\r\n# Test Title\r\n\r\nIn this guide, we cover string operations, formatting, and manipulation techniques across multiple languages, including Kotlin.\r\n\r\n## What is a String?\r\n\r\nA string is a sequence of characters. It's one of the most common data types used to represent textual data in programming.\r\n\r\n### Basic String Declaration (Kotlin)\r\n\r\n```kotlin\r\nval greeting: String = \"Hello, World!\"\r\nprintln(greeting)\r\n",
+    "code": "var Component=(()=>{var g=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var r in n)o(e,r,{get:n[r],enumerable:!0})},s=(e,n,r,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of u(n))!x.call(e,i)&&i!==r&&o(e,i,{get:()=>n[i],enumerable:!(a=m(n,i))||a.enumerable});return e};var j=(e,n,r)=>(r=e!=null?g(p(e)):{},s(n||!e||!e.__esModule?o(r,\"default\",{value:e,enumerable:!0}):r,e)),D=e=>s(o({},\"__esModule\",{value:!0}),e);var l=f((v,c)=>{c.exports=_jsx_runtime});var S={};_(S,{default:()=>h,frontmatter:()=>M});var t=j(l()),M=void 0;function d(e){let n={code:\"code\",h1:\"h1\",h2:\"h2\",h3:\"h3\",p:\"p\",pre:\"pre\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.h1,{children:\"Test Title\"}),`\n`,(0,t.jsx)(n.p,{children:\"In this guide, we cover string operations, formatting, and manipulation techniques across multiple languages, including Kotlin.\"}),`\n`,(0,t.jsx)(n.h2,{children:\"What is a String?\"}),`\n`,(0,t.jsx)(n.p,{children:\"A string is a sequence of characters. It's one of the most common data types used to represent textual data in programming.\"}),`\n`,(0,t.jsx)(n.h3,{children:\"Basic String Declaration (Kotlin)\"}),`\n`,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:\"language-kotlin\",children:`val greeting: String = \"Hello, World!\"\\r\nprintln(greeting)\n`})})]})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(d,{...e})}):d(e)}return D(S);})();\n;return Component;"
+  },
+  "_id": "strings.mdx",
+  "_raw": {
+    "sourceFilePath": "strings.mdx",
+    "sourceFileName": "strings.mdx",
+    "sourceFileDir": ".",
+    "contentType": "mdx",
+    "flattenedPath": "strings"
+  },
+  "type": "Docs"
+}
