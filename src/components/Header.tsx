@@ -56,7 +56,11 @@ const Header: React.FC = () => {
             >
                 <Wrapper className="flex justify-between items-center">
                     <Link href="/public">
-                        <img src="/images/Banner.png" className="w-[140px] md:w-[140px]" alt="Banner"/>
+                        <Image
+                            src="/images/Banner.png"
+                            width={140}
+                            height={140}
+                            alt="Banner"/>
                     </Link>
 
                     <Menu

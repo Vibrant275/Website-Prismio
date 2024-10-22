@@ -1,6 +1,6 @@
 import React from "react";
 import EditPage from "@/components/EditPageBar";
-import {allDocs} from "contentlayer2/generated"
+import {allDocs} from 'contentlayer/generated'
 import {notFound} from "next/navigation";
 import {MDXContent} from "@/components/mdx-content";
 import {DocsToc} from "@/components/docs/toc";
@@ -13,10 +13,9 @@ interface Params {
 }
 
 export async function generateStaticParams(): Promise<Params["params"][]> {
-    const paths = allDocs.map((doc) => ({
-        slug: `/docs/${doc._raw.flattenedPath}`
+    return allDocs.map((doc) => ({
+        slug: `${doc._raw.flattenedPath}`
     }));
-    return paths;
 }
 
 async function getDocFromParams({params}: Params) {
@@ -24,7 +23,7 @@ async function getDocFromParams({params}: Params) {
     const doc = allDocs.find((doc) => doc._raw.flattenedPath === slug);
 
     if (!doc) {
-        null;
+        // return null;
     }
 
     const headings = getHeadings(doc?.body.raw);
