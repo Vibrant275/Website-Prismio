@@ -1,27 +1,22 @@
-"use client";
-import React, {ReactNode, useEffect, useState} from "react";
+import React from "react";
 import EditPage from "@/components/EditPageBar";
-import {allDocs, Docs} from "contentlayer2/generated"
-import {getMDXComponent} from "next-contentlayer2/hooks";
+import {allDocs} from "contentlayer2/generated"
 import {notFound} from "next/navigation";
 import {MDXContent} from "@/components/mdx-content";
 import {DocsToc} from "@/components/docs/toc";
 import {getHeadings} from "@/libs/docs/utils";
 
-// export const getStaticProps: GetStaticProps = async (): Promise<GetStaticProps> => {}
-
 interface Params {
     params: {
-        slug: string[];
+        slug: string;
     };
 }
 
-
-export async function getStaticPaths() {
+export async function generateStaticParams(): Promise<Params["params"][]> {
     const paths = allDocs.map((doc) => ({
         slug: `/docs/${doc._raw.flattenedPath}`
     }));
-    return {paths, fallback: false};
+    return paths;
 }
 
 async function getDocFromParams({params}: Params) {
@@ -43,19 +38,9 @@ async function getDocFromParams({params}: Params) {
     return {doc, headings};
 }
 
-
 export default async function DocsPage({params}: Params) {
-    const [error, setError] = useState<string | null>(null);
-
-    // const doc = allDocs.find((doc) => doc._raw.flattenedPath === params.slug.toString())
-
-    if (error) {
-        return <div>{error}</div>;
-    }
-
 
     const {doc, headings} = await getDocFromParams({params});
-
 
     if (!doc) {
         notFound();
