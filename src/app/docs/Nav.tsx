@@ -1,3 +1,5 @@
+"use client";
+
 import {useRouter} from "next/navigation";
 import {useState} from "react";
 import {ChevronDown, ChevronRight} from "lucide-react";
