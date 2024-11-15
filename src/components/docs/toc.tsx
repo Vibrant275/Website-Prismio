@@ -2,7 +2,7 @@
 
 import {FC, useRef, useEffect, useState} from "react";
 import {clsx} from "@nextui-org/shared-utils";
-import {Divider, Spacer} from "@nextui-org/react";
+import {Button, Divider, Spacer} from "@nextui-org/react";
 import {ChevronCircleTopLinearIcon} from "@nextui-org/shared-icons";
 import scrollIntoView from "scroll-into-view-if-needed";
 
@@ -10,6 +10,7 @@ import {Heading} from "@/libs/docs/utils";
 import {useScrollSpy} from "@/hooks/use-scroll-spy";
 import {useScrollPosition} from "@/hooks/use-scroll-position";
 import emitter from "@/libs/emitter";
+import Link from "next/link";
 
 export interface DocsTocProps {
   headings: Heading[];
@@ -37,7 +38,7 @@ export const DocsToc: FC<DocsTocProps> = ({headings}) => {
   );
 
   const activeIndex = headings.findIndex(({id}) => id == activeId);
-  const firstId = headings[0].id;
+  // const firstId = headings[0].id;
 
   useEffect(() => {
     if (!activeId || activeIndex < 2) return;
@@ -63,6 +64,13 @@ export const DocsToc: FC<DocsTocProps> = ({headings}) => {
       emitter.off("proBannerVisibilityChange");
     };
   }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
 
   return (
     <div
@@ -114,13 +122,14 @@ export const DocsToc: FC<DocsTocProps> = ({headings}) => {
         >
           <Divider />
           <Spacer y={2} />
-          <a
+          <Button
             className="flex gap-2 items-center text-sm text-default-500 dark:text-foreground/30 hover:text-foreground/80 pl-4 transition-opacity"
-            href={`#${firstId}`}
+            variant={"light"}
+            onClick={scrollToTop}
           >
             Back to top
             <ChevronCircleTopLinearIcon />
-          </a>
+          </Button>
         </li>
       </ul>
     </div>

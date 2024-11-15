@@ -63,7 +63,7 @@ export const DocsNavList: DocsSection[] = [
                 label: "Management",
                 items: [
                     { href: "/docs/strings", label: "Navigation" },
-                    { href: "/docs/strings", label: "Members" },
+                    { href: "/docs/home", label: "Members" },
                 ],
             },
             { href: "/docs/strings", label: "Repositories" },
