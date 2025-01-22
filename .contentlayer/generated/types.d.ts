@@ -13,6 +13,7 @@ export type Docs = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Docs'
+  title: string
   /** MDX file body */
   body: MDX
 

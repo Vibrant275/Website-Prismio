@@ -22,7 +22,7 @@ export const Docs = defineDocumentType(() => ({
   filePathPattern: `**/*.mdx`,
   contentType: "mdx",
   fields: {
-    // title: {type: "string", required: true},
+    title: {type: "string", required: true},
     // description: {type: "string", required: false},
     // date: {type: "date", required: false},
   },
@@ -78,7 +78,7 @@ export const Docs = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: "docs",
-  documentTypes: [Docs],
+  documentTypes: [Docs ],
   // mdx: {
   //   remarkPlugins: [remarkGfm, pluginCodeBlock],
   //   esbuildOptions(options) {

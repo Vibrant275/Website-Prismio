@@ -1,12 +1,15 @@
-import Image from "next/image";
 import Header from "@/components/Header";
-import store from "../../store/store";
-import {Provider} from "react-redux";
+import React from "react";
 
 export default function Home() {
   return (
     <>
       <Header />
+        <div className={'bg-[#19181d] flex flex-col items-center justify-center py-7'}>
+          <span className={'text-white'}>{`Clean`}</span>
+          <span className={'text-white'}>{`Concise`}</span>
+          <span className={'text-white'}>{`Cross Platform`}</span>
+        </div>
     </>
   );
 }

@@ -2,9 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 const data = [
-    { id: 1, name: "Docs", url: "docs" },
-    { id: 2, name: "Community", url: "/play" },
-    { id: 3, name: "Contribute", url: "/contribute" },
+    { id: 1, name: "Docs", url: "/docs" },
+    { id: 2, name: "Community", url: "/community" },
+    { id: 3, name: "Support", url: "/support" },
     { id: 4, name: "About", url: "/about" }
 ];
 
